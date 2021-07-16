@@ -655,23 +655,27 @@ void introPage() {
 
 		setFont(GLUT_BITMAP_TIMES_ROMAN_24);
 		glColor3f(1.0, 1.0, 1.0);
-		//writeText(155.0, 475.0, 0.0, "PES Institute of Technology-Bangalore South Campus");
+		writeText(155.0, 475.0, 0.0, "B.N.M Institute of Technology");
 
 		glColor3f(1.0, 1.0, 1.0);
-		//writeText(145.0, 450.0, 0.0, "Departement of Computer Science & Engineering, BE/BTech");
-
-		setFont(GLUT_BITMAP_HELVETICA_18);
-		glColor3f(1.0, 1.0, 1.0);
-		writeText(170, 300, 0.0, "Nuclear Reactions");
+		writeText(145.0, 450.0, 0.0, "Departement of Computer Science and Engineering");
 
 		setFont(GLUT_BITMAP_HELVETICA_18);
 		glColor3f(1.0, 1.0, 1.0);
-		//writeText(190, 270, 0, "Team:");
+		writeText(155, 300, 0.0, "Nuclear Physics Reactions Simulation");
+
+		setFont(GLUT_BITMAP_HELVETICA_18);
+		glColor3f(1.0, 1.0, 1.0);
+		writeText(190, 270, 0, "Ramasubramanya MS");
 
 		glColor3f(1.0, 1.0, 1.0);
-		//writeText(190, 250, 0, "Prakruth Nagaraj: 1PE15CS104");
-		//glColor3f(1.0, 1.0, 1.0);
-		//writeText(190, 230, 0, "Pratyush Debnath: 1PE15CS108");
+		writeText(190, 230, 0, "Option 1: Start Page");
+		glColor3f(1.0, 1.0, 1.0);
+		writeText(190, 210, 0, "Option 2: Introduction Page");
+		glColor3f(1.0, 1.0, 1.0);
+		writeText(190, 190, 0, "Option 3: Nuclear Fission Reaction Page");
+		glColor3f(1.0, 1.0, 1.0);
+		writeText(190, 170, 0, "Option 4: Nuclear Fusion Reaction Page");
 
 		glColor3f(1.0, 1.0, 1.0);
 		writeText(500, 15, 0.0, "Menu Button: Right Click");
